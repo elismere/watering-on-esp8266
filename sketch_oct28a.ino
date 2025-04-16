@@ -27,7 +27,7 @@ DS3231 rtc;
 
 
 unsigned long previousMillis; // Stores the last time the pump was turned on
-int interval = 10000; // 30s interval (in milliseconds)
+int interval = 10000; // 10s interval (in milliseconds)
 bool automaticmode = false;
 bool manualmode = false;
 bool sensormode = false;
